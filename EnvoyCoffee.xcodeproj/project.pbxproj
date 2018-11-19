@@ -12,6 +12,23 @@
 		2BE28A7821A2B93F004DADEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE28A7721A2B93F004DADEC /* Assets.xcassets */; };
 		2BE28A7B21A2B93F004DADEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE28A7921A2B93F004DADEC /* LaunchScreen.storyboard */; };
 		2BE28A8621A2B93F004DADEC /* EnvoyCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A8521A2B93F004DADEC /* EnvoyCoffeeTests.swift */; };
+		2BE28A9421A2BDEE004DADEC /* ECBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */; };
+		2BE28A9721A2BE64004DADEC /* ECCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */; };
+		2BE28A9A21A2C116004DADEC /* ECCoffeeShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */; };
+		2BE28A9D21A2C933004DADEC /* ECBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9C21A2C933004DADEC /* ECBaseService.swift */; };
+		2BE28A9F21A2CB9E004DADEC /* ECQuesryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */; };
+		2BE28AA121A2D39F004DADEC /* ECCoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */; };
+		2BE28AA421A2D62E004DADEC /* ECCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA321A2D62E004DADEC /* ECCategory.swift */; };
+		2BE28AAD21A2D63E004DADEC /* ECLabeledLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */; };
+		2BE28AAE21A2D63E004DADEC /* ECResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA621A2D63E004DADEC /* ECResponse.swift */; };
+		2BE28AAF21A2D63E004DADEC /* ECIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA721A2D63E004DADEC /* ECIcon.swift */; };
+		2BE28AB021A2D63E004DADEC /* ECVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA821A2D63E004DADEC /* ECVenue.swift */; };
+		2BE28AB121A2D63E004DADEC /* ECLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA921A2D63E004DADEC /* ECLocation.swift */; };
+		2BE28AB221A2D63E004DADEC /* ECFoursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */; };
+		2BE28AB321A2D63E004DADEC /* ECMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAB21A2D63E004DADEC /* ECMeta.swift */; };
+		2BE28AB421A2D63E004DADEC /* ECVenuePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */; };
+		2BE28AB621A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */; };
+		2BE28AB821A2EF55004DADEC /* ECBestPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */; };
 		98B95BF2EED2BB19076EB8AF /* Pods_EnvoyCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A469BC55073702044C423C /* Pods_EnvoyCoffee.framework */; };
 		98CFD7CF1F6C58341873B2D9 /* Pods_EnvoyCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A87AF0968FC92E2D6D56DE6 /* Pods_EnvoyCoffeeTests.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +54,23 @@
 		2BE28A8121A2B93F004DADEC /* EnvoyCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE28A8521A2B93F004DADEC /* EnvoyCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoyCoffeeTests.swift; sourceTree = "<group>"; };
 		2BE28A8721A2B93F004DADEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBaseViewController.swift; sourceTree = "<group>"; };
+		2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewController.swift; sourceTree = "<group>"; };
+		2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeShopCell.swift; sourceTree = "<group>"; };
+		2BE28A9C21A2C933004DADEC /* ECBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBaseService.swift; sourceTree = "<group>"; };
+		2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECQuesryBuilder.swift; sourceTree = "<group>"; };
+		2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewModel.swift; sourceTree = "<group>"; };
+		2BE28AA321A2D62E004DADEC /* ECCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECCategory.swift; sourceTree = "<group>"; };
+		2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECLabeledLatLng.swift; sourceTree = "<group>"; };
+		2BE28AA621A2D63E004DADEC /* ECResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECResponse.swift; sourceTree = "<group>"; };
+		2BE28AA721A2D63E004DADEC /* ECIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECIcon.swift; sourceTree = "<group>"; };
+		2BE28AA821A2D63E004DADEC /* ECVenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECVenue.swift; sourceTree = "<group>"; };
+		2BE28AA921A2D63E004DADEC /* ECLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECLocation.swift; sourceTree = "<group>"; };
+		2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECFoursquare.swift; sourceTree = "<group>"; };
+		2BE28AAB21A2D63E004DADEC /* ECMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECMeta.swift; sourceTree = "<group>"; };
+		2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECVenuePage.swift; sourceTree = "<group>"; };
+		2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCofeeShopCellViewModel.swift; sourceTree = "<group>"; };
+		2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBestPhoto.swift; sourceTree = "<group>"; };
 		3932A930508352D1F00A9F84 /* Pods-EnvoyCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeTests/Pods-EnvoyCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 		57537945DAEA9BC7E483C8E0 /* Pods-EnvoyCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 		67C4FFAA0C735C782A35925B /* Pods-EnvoyCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,7 +132,9 @@
 		2BE28A6F21A2B93E004DADEC /* EnvoyCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				2BE28A9021A2BC06004DADEC /* Controllers */,
+				2BE28AA221A2D606004DADEC /* Models */,
+				2BE28A9B21A2C6FC004DADEC /* Networking */,
+				2BE28A9021A2BC06004DADEC /* ViewControllers */,
 				2BE28A7021A2B93E004DADEC /* AppDelegate.swift */,
 				2BE28A7421A2B93E004DADEC /* Main.storyboard */,
 				2BE28A7721A2B93F004DADEC /* Assets.xcassets */,
@@ -117,11 +153,50 @@
 			path = EnvoyCoffeeTests;
 			sourceTree = "<group>";
 		};
-		2BE28A9021A2BC06004DADEC /* Controllers */ = {
+		2BE28A9021A2BC06004DADEC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2BE28A9521A2BE2C004DADEC /* CoffeeList */,
+				2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */,
 			);
-			path = Controllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BE28A9521A2BE2C004DADEC /* CoffeeList */ = {
+			isa = PBXGroup;
+			children = (
+				2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */,
+				2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */,
+				2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */,
+				2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */,
+			);
+			path = CoffeeList;
+			sourceTree = "<group>";
+		};
+		2BE28A9B21A2C6FC004DADEC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2BE28A9C21A2C933004DADEC /* ECBaseService.swift */,
+				2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2BE28AA221A2D606004DADEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */,
+				2BE28AA721A2D63E004DADEC /* ECIcon.swift */,
+				2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */,
+				2BE28AA921A2D63E004DADEC /* ECLocation.swift */,
+				2BE28AAB21A2D63E004DADEC /* ECMeta.swift */,
+				2BE28AA621A2D63E004DADEC /* ECResponse.swift */,
+				2BE28AA821A2D63E004DADEC /* ECVenue.swift */,
+				2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */,
+				2BE28AA321A2D62E004DADEC /* ECCategory.swift */,
+				2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		54FC285FCDBF33787E3A3EC9 /* Frameworks */ = {
@@ -145,6 +220,7 @@
 				2BE28A6A21A2B93E004DADEC /* Frameworks */,
 				2BE28A6B21A2B93E004DADEC /* Resources */,
 				9165C7D7BBDAE94C93EF9A58 /* [CP] Embed Pods Frameworks */,
+				2BE28A9821A2BF30004DADEC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +309,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2BE28A9821A2BF30004DADEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n";
+		};
 		64170451DAAF5AFB4A97A397 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +358,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -272,6 +366,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +403,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BE28A9721A2BE64004DADEC /* ECCoffeeListViewController.swift in Sources */,
+				2BE28AB121A2D63E004DADEC /* ECLocation.swift in Sources */,
+				2BE28AA421A2D62E004DADEC /* ECCategory.swift in Sources */,
 				2BE28A7121A2B93E004DADEC /* AppDelegate.swift in Sources */,
+				2BE28AB621A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift in Sources */,
+				2BE28AB421A2D63E004DADEC /* ECVenuePage.swift in Sources */,
+				2BE28AB821A2EF55004DADEC /* ECBestPhoto.swift in Sources */,
+				2BE28AB221A2D63E004DADEC /* ECFoursquare.swift in Sources */,
+				2BE28AB021A2D63E004DADEC /* ECVenue.swift in Sources */,
+				2BE28A9F21A2CB9E004DADEC /* ECQuesryBuilder.swift in Sources */,
+				2BE28AAF21A2D63E004DADEC /* ECIcon.swift in Sources */,
+				2BE28A9421A2BDEE004DADEC /* ECBaseViewController.swift in Sources */,
+				2BE28AA121A2D39F004DADEC /* ECCoffeeListViewModel.swift in Sources */,
+				2BE28AB321A2D63E004DADEC /* ECMeta.swift in Sources */,
+				2BE28AAE21A2D63E004DADEC /* ECResponse.swift in Sources */,
+				2BE28A9D21A2C933004DADEC /* ECBaseService.swift in Sources */,
+				2BE28A9A21A2C116004DADEC /* ECCoffeeShopCell.swift in Sources */,
+				2BE28AAD21A2D63E004DADEC /* ECLabeledLatLng.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

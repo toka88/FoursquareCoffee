@@ -7,6 +7,7 @@ target 'EnvoyCoffee' do
 
   pod 'Alamofire', '~> 4.7'
   pod 'SnapKit', '~> 4.0'
+  pod 'AlamofireImage', '~> 3.4'
 
   target 'EnvoyCoffeeTests' do
     inherit! :search_paths
