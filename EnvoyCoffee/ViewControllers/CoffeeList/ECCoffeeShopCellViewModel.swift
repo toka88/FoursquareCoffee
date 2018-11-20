@@ -24,21 +24,13 @@ class ECCoffeeShopCellViewModel {
                             let venue = ECVenue.init(fromDictionary: venueDict)
                             if let prefix = venue.bestPhoto?.prefix, let suffix = venue.bestPhoto?.suffix{
                                 let imageURL =  prefix + "\(height)x\(height)" + suffix
-                                
-                                DispatchQueue.main.async {
-                                    return completionBlock?(imageURL)
-                                }
+                                 completionBlock?(imageURL)
                             }
                         }
                     }
-                    DispatchQueue.main.async {
-                        return completionBlock?(nil)
-                    }
+                    completionBlock?(nil)
                 }else{
-                    DispatchQueue.main.async {
-                        return completionBlock?(nil)
-                    }
-
+                    completionBlock?(nil)
                 }
                 
             }

@@ -17,13 +17,9 @@ class ECCoffeeListViewModel: NSObject {
                 if let response = response as? [String: Any]{
                     self.foursquare = ECFoursquare.init(fromDictionary: response)
                 }
-                DispatchQueue.main.async {
-                        completionBlock?(true)
-                }
+                completionBlock?(true)
             }else{
-                DispatchQueue.main.async {
-                    completionBlock?(true)
-                }
+                completionBlock?(true)
             }
         }
     }
