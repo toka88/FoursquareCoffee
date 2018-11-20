@@ -18,8 +18,8 @@ class ECLocation : NSObject, NSCoding{
 	var distance : Int?
 	var formattedAddress : [String]?
 	var labeledLatLngs : [ECLabeledLatLng]?
-	var lat : Float?
-	var lng : Float?
+	var lat : Double?
+	var lng : Double?
 	var neighborhood : String?
 	var postalCode : String?
 	var state : String?
@@ -43,8 +43,8 @@ class ECLocation : NSObject, NSCoding{
 				labeledLatLngs?.append(value)
 			}
 		}
-		lat = dictionary["lat"] as? Float
-		lng = dictionary["lng"] as? Float
+		lat = dictionary["lat"] as? Double
+		lng = dictionary["lng"] as? Double
 		neighborhood = dictionary["neighborhood"] as? String
 		postalCode = dictionary["postalCode"] as? String
 		state = dictionary["state"] as? String
@@ -118,8 +118,8 @@ class ECLocation : NSObject, NSCoding{
          distance = aDecoder.decodeObject(forKey: "distance") as? Int
          formattedAddress = aDecoder.decodeObject(forKey: "formattedAddress") as? [String]
          labeledLatLngs = aDecoder.decodeObject(forKey :"labeledLatLngs") as? [ECLabeledLatLng]
-         lat = aDecoder.decodeObject(forKey: "lat") as? Float
-         lng = aDecoder.decodeObject(forKey: "lng") as? Float
+         lat = aDecoder.decodeObject(forKey: "lat") as? Double
+         lng = aDecoder.decodeObject(forKey: "lng") as? Double
          neighborhood = aDecoder.decodeObject(forKey: "neighborhood") as? String
          postalCode = aDecoder.decodeObject(forKey: "postalCode") as? String
          state = aDecoder.decodeObject(forKey: "state") as? String

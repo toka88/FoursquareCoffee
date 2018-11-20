@@ -9,7 +9,7 @@
 import Foundation
 
 class ECCoffeeListViewModel: NSObject {
-    private var foursquare: ECFoursquare?
+    var foursquare: ECFoursquare?
     
     func fetchDataFromServer(_ completionBlock:((_ success: Bool) -> Void)?){
         ECBaseService.shared.baseGetService(url: ECQuesryBuilder.getEnvoyCoffeeShopsCompleteQuery()) { (error, response) in
@@ -35,10 +35,10 @@ class ECCoffeeListViewModel: NSObject {
         return venues.count
     }
     
-    func dataModelForCell(atIndex index: Int) -> ECCofeeShopCellViewModel{
+    func dataModelForCell(atIndex index: Int) -> ECCoffeeShopCellViewModel{
         if let venues = foursquare?.response?.venues, venues.count > index{
-            return ECCofeeShopCellViewModel.init(venue: venues[index])
+            return ECCoffeeShopCellViewModel.init(venue: venues[index])
         }
-        return ECCofeeShopCellViewModel.init(venue: nil)
+        return ECCoffeeShopCellViewModel.init(venue: nil)
     }
 }

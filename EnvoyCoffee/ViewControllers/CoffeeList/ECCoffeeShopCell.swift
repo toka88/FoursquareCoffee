@@ -42,8 +42,8 @@ class ECCoffeeShopCell: UITableViewCell {
     }()
     
     //Data
-    static let imageHeight : CGFloat = 300
-    var viewModel: ECCofeeShopCellViewModel!{
+    static let imageHeight : Int = 250
+    var viewModel: ECCoffeeShopCellViewModel!{
         didSet{
             configureData()
         }
@@ -94,7 +94,7 @@ class ECCoffeeShopCell: UITableViewCell {
         nameLabel.text = viewModel.name()
         addressLabel.text = viewModel.formattedAddress()
         coffeeImageView.image = nil
-        viewModel.imageURLString(imageHeight: 300) { [weak self](urlString) in
+        viewModel.imageURLString(imageHeight: ECCoffeeShopCell.imageHeight * 2) { [weak self](urlString) in
             if let urlString = urlString,let url = URL.init(string: urlString){
                 self?.coffeeImageView.af_setImage(withURL: url)
             }

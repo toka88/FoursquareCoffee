@@ -1,5 +1,5 @@
 //
-//  ECCofeeShopCellViewModel.swift
+//  ECCoffeeShopCellViewModel.swift
 //  EnvoyCoffee
 //
 //  Created by Goran Tokovic on 11/19/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ECCofeeShopCellViewModel {
+class ECCoffeeShopCellViewModel {
     private var venue : ECVenue?
     
     init(venue: ECVenue?) {

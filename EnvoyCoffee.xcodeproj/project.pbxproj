@@ -7,11 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BACCA1C21A33C35002B5893 /* FoursquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BACCA1B21A33C35002B5893 /* FoursquareTests.swift */; };
+		2BACCA1F21A33D15002B5893 /* FoursquareCoffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BACCA1E21A33D15002B5893 /* FoursquareCoffee.json */; };
+		2BACCA2021A33E08002B5893 /* ECFoursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */; };
+		2BACCA2121A33E0B002B5893 /* ECIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA721A2D63E004DADEC /* ECIcon.swift */; };
+		2BACCA2221A33E0D002B5893 /* ECLabeledLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */; };
+		2BACCA2321A33E10002B5893 /* ECLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA921A2D63E004DADEC /* ECLocation.swift */; };
+		2BACCA2421A33E13002B5893 /* ECMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAB21A2D63E004DADEC /* ECMeta.swift */; };
+		2BACCA2521A33E15002B5893 /* ECResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA621A2D63E004DADEC /* ECResponse.swift */; };
+		2BACCA2621A33E18002B5893 /* ECVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA821A2D63E004DADEC /* ECVenue.swift */; };
+		2BACCA2721A33E1A002B5893 /* ECVenuePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */; };
+		2BACCA2821A33E1D002B5893 /* ECCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA321A2D62E004DADEC /* ECCategory.swift */; };
+		2BACCA2921A33E1F002B5893 /* ECBestPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */; };
+		2BACCA2B21A344AA002B5893 /* ECCoffeeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BACCA2A21A344AA002B5893 /* ECCoffeeListViewModelTests.swift */; };
+		2BACCA2C21A344AF002B5893 /* ECCoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */; };
+		2BACCA2D21A34A09002B5893 /* ECBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9C21A2C933004DADEC /* ECBaseService.swift */; };
+		2BACCA2E21A34A0D002B5893 /* ECQuesryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */; };
+		2BACCA2F21A34A10002B5893 /* ECCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */; };
+		2BACCA3021A34A13002B5893 /* ECCoffeeShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */; };
+		2BACCA3121A34A18002B5893 /* ECCoffeeShopCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB521A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift */; };
+		2BACCA3221A34AA0002B5893 /* ECBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */; };
+		2BACCA3321A34AA4002B5893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A7021A2B93E004DADEC /* AppDelegate.swift */; };
 		2BE28A7121A2B93E004DADEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A7021A2B93E004DADEC /* AppDelegate.swift */; };
 		2BE28A7621A2B93E004DADEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE28A7421A2B93E004DADEC /* Main.storyboard */; };
 		2BE28A7821A2B93F004DADEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE28A7721A2B93F004DADEC /* Assets.xcassets */; };
 		2BE28A7B21A2B93F004DADEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE28A7921A2B93F004DADEC /* LaunchScreen.storyboard */; };
-		2BE28A8621A2B93F004DADEC /* EnvoyCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A8521A2B93F004DADEC /* EnvoyCoffeeTests.swift */; };
 		2BE28A9421A2BDEE004DADEC /* ECBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */; };
 		2BE28A9721A2BE64004DADEC /* ECCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */; };
 		2BE28A9A21A2C116004DADEC /* ECCoffeeShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */; };
@@ -27,7 +47,7 @@
 		2BE28AB221A2D63E004DADEC /* ECFoursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */; };
 		2BE28AB321A2D63E004DADEC /* ECMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAB21A2D63E004DADEC /* ECMeta.swift */; };
 		2BE28AB421A2D63E004DADEC /* ECVenuePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */; };
-		2BE28AB621A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */; };
+		2BE28AB621A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB521A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift */; };
 		2BE28AB821A2EF55004DADEC /* ECBestPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */; };
 		98B95BF2EED2BB19076EB8AF /* Pods_EnvoyCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A469BC55073702044C423C /* Pods_EnvoyCoffee.framework */; };
 		98CFD7CF1F6C58341873B2D9 /* Pods_EnvoyCoffeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A87AF0968FC92E2D6D56DE6 /* Pods_EnvoyCoffeeTests.framework */; };
@@ -45,6 +65,9 @@
 
 /* Begin PBXFileReference section */
 		246FBAB9B3B5EBCEE1BFDA5D /* Pods-EnvoyCoffeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeTests/Pods-EnvoyCoffeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BACCA1B21A33C35002B5893 /* FoursquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareTests.swift; sourceTree = "<group>"; };
+		2BACCA1E21A33D15002B5893 /* FoursquareCoffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FoursquareCoffee.json; sourceTree = "<group>"; };
+		2BACCA2A21A344AA002B5893 /* ECCoffeeListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewModelTests.swift; sourceTree = "<group>"; };
 		2BE28A6D21A2B93E004DADEC /* EnvoyCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE28A7021A2B93E004DADEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BE28A7521A2B93E004DADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +75,6 @@
 		2BE28A7A21A2B93F004DADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BE28A7C21A2B93F004DADEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE28A8121A2B93F004DADEC /* EnvoyCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BE28A8521A2B93F004DADEC /* EnvoyCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvoyCoffeeTests.swift; sourceTree = "<group>"; };
 		2BE28A8721A2B93F004DADEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE28A9321A2BDEE004DADEC /* ECBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBaseViewController.swift; sourceTree = "<group>"; };
 		2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +91,7 @@
 		2BE28AAA21A2D63E004DADEC /* ECFoursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECFoursquare.swift; sourceTree = "<group>"; };
 		2BE28AAB21A2D63E004DADEC /* ECMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECMeta.swift; sourceTree = "<group>"; };
 		2BE28AAC21A2D63E004DADEC /* ECVenuePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECVenuePage.swift; sourceTree = "<group>"; };
-		2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCofeeShopCellViewModel.swift; sourceTree = "<group>"; };
+		2BE28AB521A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeShopCellViewModel.swift; sourceTree = "<group>"; };
 		2BE28AB721A2EF55004DADEC /* ECBestPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBestPhoto.swift; sourceTree = "<group>"; };
 		3932A930508352D1F00A9F84 /* Pods-EnvoyCoffeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffeeTests/Pods-EnvoyCoffeeTests.release.xcconfig"; sourceTree = "<group>"; };
 		57537945DAEA9BC7E483C8E0 /* Pods-EnvoyCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnvoyCoffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnvoyCoffee/Pods-EnvoyCoffee.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +129,14 @@
 				3932A930508352D1F00A9F84 /* Pods-EnvoyCoffeeTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BACCA1D21A33D02002B5893 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BACCA1E21A33D15002B5893 /* FoursquareCoffee.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		2BE28A6421A2B93E004DADEC = {
@@ -147,8 +177,10 @@
 		2BE28A8421A2B93F004DADEC /* EnvoyCoffeeTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BE28A8521A2B93F004DADEC /* EnvoyCoffeeTests.swift */,
+				2BACCA1D21A33D02002B5893 /* Resources */,
 				2BE28A8721A2B93F004DADEC /* Info.plist */,
+				2BACCA1B21A33C35002B5893 /* FoursquareTests.swift */,
+				2BACCA2A21A344AA002B5893 /* ECCoffeeListViewModelTests.swift */,
 			);
 			path = EnvoyCoffeeTests;
 			sourceTree = "<group>";
@@ -168,7 +200,7 @@
 				2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */,
 				2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */,
 				2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */,
-				2BE28AB521A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift */,
+				2BE28AB521A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift */,
 			);
 			path = CoffeeList;
 			sourceTree = "<group>";
@@ -303,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BACCA1F21A33D15002B5893 /* FoursquareCoffee.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +357,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n";
+			shellScript = "
+";
 		};
 		64170451DAAF5AFB4A97A397 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -407,7 +441,7 @@
 				2BE28AB121A2D63E004DADEC /* ECLocation.swift in Sources */,
 				2BE28AA421A2D62E004DADEC /* ECCategory.swift in Sources */,
 				2BE28A7121A2B93E004DADEC /* AppDelegate.swift in Sources */,
-				2BE28AB621A2DA0D004DADEC /* ECCofeeShopCellViewModel.swift in Sources */,
+				2BE28AB621A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift in Sources */,
 				2BE28AB421A2D63E004DADEC /* ECVenuePage.swift in Sources */,
 				2BE28AB821A2EF55004DADEC /* ECBestPhoto.swift in Sources */,
 				2BE28AB221A2D63E004DADEC /* ECFoursquare.swift in Sources */,
@@ -428,7 +462,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE28A8621A2B93F004DADEC /* EnvoyCoffeeTests.swift in Sources */,
+				2BACCA2921A33E1F002B5893 /* ECBestPhoto.swift in Sources */,
+				2BACCA2121A33E0B002B5893 /* ECIcon.swift in Sources */,
+				2BACCA2221A33E0D002B5893 /* ECLabeledLatLng.swift in Sources */,
+				2BACCA2D21A34A09002B5893 /* ECBaseService.swift in Sources */,
+				2BACCA2721A33E1A002B5893 /* ECVenuePage.swift in Sources */,
+				2BACCA2C21A344AF002B5893 /* ECCoffeeListViewModel.swift in Sources */,
+				2BACCA2521A33E15002B5893 /* ECResponse.swift in Sources */,
+				2BACCA2F21A34A10002B5893 /* ECCoffeeListViewController.swift in Sources */,
+				2BACCA2421A33E13002B5893 /* ECMeta.swift in Sources */,
+				2BACCA2E21A34A0D002B5893 /* ECQuesryBuilder.swift in Sources */,
+				2BACCA2321A33E10002B5893 /* ECLocation.swift in Sources */,
+				2BACCA2021A33E08002B5893 /* ECFoursquare.swift in Sources */,
+				2BACCA3121A34A18002B5893 /* ECCoffeeShopCellViewModel.swift in Sources */,
+				2BACCA2621A33E18002B5893 /* ECVenue.swift in Sources */,
+				2BACCA1C21A33C35002B5893 /* FoursquareTests.swift in Sources */,
+				2BACCA2821A33E1D002B5893 /* ECCategory.swift in Sources */,
+				2BACCA3021A34A13002B5893 /* ECCoffeeShopCell.swift in Sources */,
+				2BACCA2B21A344AA002B5893 /* ECCoffeeListViewModelTests.swift in Sources */,
+				2BACCA3321A34AA4002B5893 /* AppDelegate.swift in Sources */,
+				2BACCA3221A34AA0002B5893 /* ECBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
