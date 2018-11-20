@@ -17,7 +17,7 @@ class ECCoffeeShopCellViewModel {
     
     func imageURLString(imageHeight height: Int, completionBlock:((_ url: String?) -> Void)?){
         if let venueID = venue?.id{
-            ECBaseService.shared.baseGetService(url: ECQuesryBuilder.detailsQuery(venueID)) { (error, response) in
+            ECBaseService.shared.baseGetService(url: ECQueryBuilder.detailsQuery(venueID)) { (error, response) in
                 if error == nil{
                     if let dict = response as? [String: Any], let response = dict["response"] as? [String:Any]{
                         if let venueDict = response["venue"] as? [String:Any]{

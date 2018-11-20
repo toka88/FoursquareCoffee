@@ -12,7 +12,7 @@ class ECCoffeeListViewModel: NSObject {
     var foursquare: ECFoursquare?
     
     func fetchDataFromServer(_ completionBlock:((_ success: Bool) -> Void)?){
-        ECBaseService.shared.baseGetService(url: ECQuesryBuilder.getEnvoyCoffeeShopsCompleteQuery()) { (error, response) in
+        ECBaseService.shared.baseGetService(url: ECQueryBuilder.getEnvoyCoffeeShopsCompleteQuery()) { (error, response) in
             if error == nil{
                 if let response = response as? [String: Any]{
                     self.foursquare = ECFoursquare.init(fromDictionary: response)

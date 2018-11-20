@@ -22,7 +22,7 @@
 		2BACCA2B21A344AA002B5893 /* ECCoffeeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BACCA2A21A344AA002B5893 /* ECCoffeeListViewModelTests.swift */; };
 		2BACCA2C21A344AF002B5893 /* ECCoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */; };
 		2BACCA2D21A34A09002B5893 /* ECBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9C21A2C933004DADEC /* ECBaseService.swift */; };
-		2BACCA2E21A34A0D002B5893 /* ECQuesryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */; };
+		2BACCA2E21A34A0D002B5893 /* ECQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQueryBuilder.swift */; };
 		2BACCA2F21A34A10002B5893 /* ECCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */; };
 		2BACCA3021A34A13002B5893 /* ECCoffeeShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */; };
 		2BACCA3121A34A18002B5893 /* ECCoffeeShopCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AB521A2DA0D004DADEC /* ECCoffeeShopCellViewModel.swift */; };
@@ -36,7 +36,7 @@
 		2BE28A9721A2BE64004DADEC /* ECCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */; };
 		2BE28A9A21A2C116004DADEC /* ECCoffeeShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */; };
 		2BE28A9D21A2C933004DADEC /* ECBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9C21A2C933004DADEC /* ECBaseService.swift */; };
-		2BE28A9F21A2CB9E004DADEC /* ECQuesryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */; };
+		2BE28A9F21A2CB9E004DADEC /* ECQueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28A9E21A2CB9E004DADEC /* ECQueryBuilder.swift */; };
 		2BE28AA121A2D39F004DADEC /* ECCoffeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */; };
 		2BE28AA421A2D62E004DADEC /* ECCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA321A2D62E004DADEC /* ECCategory.swift */; };
 		2BE28AAD21A2D63E004DADEC /* ECLabeledLatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */; };
@@ -80,7 +80,7 @@
 		2BE28A9621A2BE64004DADEC /* ECCoffeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewController.swift; sourceTree = "<group>"; };
 		2BE28A9921A2C116004DADEC /* ECCoffeeShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeShopCell.swift; sourceTree = "<group>"; };
 		2BE28A9C21A2C933004DADEC /* ECBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECBaseService.swift; sourceTree = "<group>"; };
-		2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECQuesryBuilder.swift; sourceTree = "<group>"; };
+		2BE28A9E21A2CB9E004DADEC /* ECQueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECQueryBuilder.swift; sourceTree = "<group>"; };
 		2BE28AA021A2D39F004DADEC /* ECCoffeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECCoffeeListViewModel.swift; sourceTree = "<group>"; };
 		2BE28AA321A2D62E004DADEC /* ECCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECCategory.swift; sourceTree = "<group>"; };
 		2BE28AA521A2D63E004DADEC /* ECLabeledLatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ECLabeledLatLng.swift; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				2BE28A9C21A2C933004DADEC /* ECBaseService.swift */,
-				2BE28A9E21A2CB9E004DADEC /* ECQuesryBuilder.swift */,
+				2BE28A9E21A2CB9E004DADEC /* ECQueryBuilder.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -446,7 +446,7 @@
 				2BE28AB821A2EF55004DADEC /* ECBestPhoto.swift in Sources */,
 				2BE28AB221A2D63E004DADEC /* ECFoursquare.swift in Sources */,
 				2BE28AB021A2D63E004DADEC /* ECVenue.swift in Sources */,
-				2BE28A9F21A2CB9E004DADEC /* ECQuesryBuilder.swift in Sources */,
+				2BE28A9F21A2CB9E004DADEC /* ECQueryBuilder.swift in Sources */,
 				2BE28AAF21A2D63E004DADEC /* ECIcon.swift in Sources */,
 				2BE28A9421A2BDEE004DADEC /* ECBaseViewController.swift in Sources */,
 				2BE28AA121A2D39F004DADEC /* ECCoffeeListViewModel.swift in Sources */,
@@ -471,7 +471,7 @@
 				2BACCA2521A33E15002B5893 /* ECResponse.swift in Sources */,
 				2BACCA2F21A34A10002B5893 /* ECCoffeeListViewController.swift in Sources */,
 				2BACCA2421A33E13002B5893 /* ECMeta.swift in Sources */,
-				2BACCA2E21A34A0D002B5893 /* ECQuesryBuilder.swift in Sources */,
+				2BACCA2E21A34A0D002B5893 /* ECQueryBuilder.swift in Sources */,
 				2BACCA2321A33E10002B5893 /* ECLocation.swift in Sources */,
 				2BACCA2021A33E08002B5893 /* ECFoursquare.swift in Sources */,
 				2BACCA3121A34A18002B5893 /* ECCoffeeShopCellViewModel.swift in Sources */,
